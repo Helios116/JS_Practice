@@ -4,7 +4,7 @@ var dice = parseInt(prompt("What sided die to you want to roll?"));
 
 
 //Equa-partition bins to place random number into using finite precision limit (simulates the "fair dice" aspect)
-x = .999999999999999999/dice;
+var x = .999999999999999999/dice;
 
 
 //seeding the random number (between 0 and 0.999...)
